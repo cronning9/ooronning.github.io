@@ -29,13 +29,13 @@ p {
   height: 50px;
   width: 100%;
   padding: 10px 20px 20px 20px;
-  border-bottom: 2px white;
   color: white;
 }
 
 .header a {
   color: white;
 }
+
 #logo {
   display: inline-block;
   float: left;
@@ -51,6 +51,25 @@ p {
   margin-right: .5em;
 }
 
+#nav {
+  display: inline-block;
+  float: right;
+}
+
+#nav ul {
+  float: right;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+#nav li {
+  display: inline;
+}
+
+#nav a {
+  text-decoration: none;
+}
+
 #homepage {
   /*font-size: large;*/
 }
@@ -63,10 +82,14 @@ p {
   position: relative;
   width: 100%;
   overflow: hidden;
+  max-height: 80vh;
 }
 
 #banner img {
   width: 100%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
 }
 
 #banner-text-container {

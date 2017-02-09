@@ -12,6 +12,7 @@ const bannerText = {
   /*p: "New England software developer specializing in front-end and back-end web development"*/
 };
 
+// TODO: add some links as children to the banner
 const Home = () =>
   <div id="homepage">
     <Banner image={city}>
