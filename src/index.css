@@ -28,7 +28,7 @@ p {
   background-color: #222;
   height: 50px;
   width: 100%;
-  padding: 10px 20px 20px 20px;
+  padding: 10px 0 20px 0;
   color: white;
 }
 
@@ -36,9 +36,14 @@ p {
   color: white;
 }
 
+.header a:hover {
+  color: #c0c0c0;
+}
+
 #logo {
-  display: inline-block;
+  display: block;
   float: left;
+  margin-left: .6em;
 }
 
 #logo h2 {
@@ -52,18 +57,19 @@ p {
 }
 
 #nav {
-  display: inline-block;
   float: right;
+  display: block;
+  margin: .7em .5em 0 0;
 }
 
 #nav ul {
-  float: right;
   text-align: center;
   font-size: 1.2em;
 }
 
 #nav li {
-  display: inline;
+  display: inline-block;
+  padding: .4em;
 }
 
 #nav a {
@@ -146,7 +152,11 @@ p {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
+
+  #banner-text-container {
+    top: 15%;
+  }
   #banner-text h1 {
     font-size: 1.5em;
   }

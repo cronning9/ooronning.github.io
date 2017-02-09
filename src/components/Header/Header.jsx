@@ -13,8 +13,8 @@ const Header = () =>
         <img src={logo} className="app-logo" alt="logo" />
         <h2>Ronning</h2>
       </IndexLink>
-      <Nav />
     </div>
+    <Nav />
   </div>
 
 export default Header;
