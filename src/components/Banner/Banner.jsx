@@ -5,7 +5,7 @@ import React from 'react';
 const Banner = ({image, children}) =>
   <div id="banner-wrapper">
     <figure id="banner">
-      {children}
+      <figcaption>{children}</figcaption>
       <img src={image} role="presentation"/>
     </figure>
   </div>

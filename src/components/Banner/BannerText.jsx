@@ -11,9 +11,9 @@ import React from 'react';
 const BannerText = ({text}) =>
   <div id="banner-text-container">
     <div id="banner-text">
-      <h1>{text.h1}</h1>
+      {text.h1 ? <h1>{text.h1}</h1> : ""}
       {text.h2 ? <h2>{text.h2}</h2> : ""}
-      <p>{text.p}</p>
+      {text.p ? <p>{text.p}</p> : ""}
     </div>
   </div>
 

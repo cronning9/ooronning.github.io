@@ -9,7 +9,7 @@ import city from '../../assets/img/cityscape-1.jpg';
 const bannerText = {
   h1: "Chris Ronning",
   h2: "Software Developer",
-  p: "New England software developer specializing in front-end and back-end web development"
+  /*p: "New England software developer specializing in front-end and back-end web development"*/
 };
 
 const Home = () =>
