@@ -2,7 +2,7 @@
 
 import React from 'react';
 import {Link, IndexLink} from 'react-router';
-import logo from '../../logo.jpg';
+import logo from '../../assets/img/logo.jpg';
 
 const Header = () =>
   <div className="header">
