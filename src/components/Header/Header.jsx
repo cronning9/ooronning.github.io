@@ -1,17 +1,16 @@
 'use strict';
 
 import React from 'react';
-
+import {Link, IndexLink} from 'react-router';
 import logo from '../../logo.jpg';
 
-// TODO: change a to <Link> once react-router is installed
 const Header = () =>
   <div className="header">
     <div id="logo">
-      <a href="/">
+      <IndexLink to="/">
         <img src={logo} className="app-logo" alt="logo" />
-        <h2>Ronning's Homepage</h2>
-      </a>
+        <h2>Ronning</h2>
+      </IndexLink>
     </div>
   </div>
 
