@@ -6,13 +6,13 @@ const BannerLinks = () =>
   <div id="banner-links-container">
     <div id="banner-links">
       <div className="banner-link">
-        <span><a href="https://www.github.com/ooronning"><div className="banner-link-div">Follow me on Github</div></a></span>
+        <a href="https://www.github.com/ooronning"><span className="banner-link-span">Follow me on Github</span></a>
       </div>
       <div className="banner-link">
-        <span><a href="https://www.linkedin.com/in/christopherronning"><div className="banner-link-div">Add me on LinkedIn</div></a></span>
+        <a href="https://www.linkedin.com/in/christopherronning"><span className="banner-link-span">Add me on LinkedIn</span></a>
       </div>
       <div className="banner-link">
-        <span><a href="http://stackoverflow.com/story/christopher-ronning"><div className="banner-link-div">See my Stack Overflow</div></a></span>
+        <a href="http://stackoverflow.com/story/christopher-ronning"><span className="banner-link-span">See my Stack Overflow</span></a>
       </div>
     </div>
   </div>

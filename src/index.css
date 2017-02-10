@@ -154,27 +154,23 @@ p {
   padding: 1em;
 }
 
-.banner-link span {
-  vertical-align: middle;
-  line-height: normal;
-}
-
 .banner-link a {
   font-weight: bold;
   color: white;
   text-decoration: none;
 }
 
-.banner-link-div {
+.banner-link-span {
   display: block;
   height: 100%;
 }
 
-@media (max-width: 1180px) {
-  banner-link a {
-    font-size: .6em;
+@media (max-width: 980px) {
+  .banner-link a {
+    font-size: .8em;
   }
 }
+
 @media (max-width: 1010px) {
   #banner-text h1 {
     font-size: 2.75em;
