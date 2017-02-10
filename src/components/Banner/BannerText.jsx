@@ -8,17 +8,21 @@ import React from 'react';
 // h2<string>
 // p<string>
 
-const BannerText = ({text}) =>
+const BannerText = ({title, subtitle}) =>
   <div id="banner-text-container">
     <div id="banner-text">
-      {text.h1 ? <h1>{text.h1}</h1> : ""}
-      {text.h2 ? <h2>{text.h2}</h2> : ""}
-      {text.p ? <p>{text.p}</p> : ""}
+      <h1>
+        {title}
+      </h1>
+      <p>
+        {subtitle}
+      </p>
     </div>
   </div>
 
 export default BannerText;
 
 BannerText.propTypes = {
-  text: React.PropTypes.object.isRequired
+  title: React.PropTypes.string.isRequired,
+  subtitle: React.PropTypes.string.isRequired
 };

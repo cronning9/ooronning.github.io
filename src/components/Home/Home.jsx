@@ -3,7 +3,7 @@
 import React from 'react';
 
 import Banner from '../Banner/Banner';
-import BannerText from '../Banner/BannerText';
+import HomeBannerText from '../Home/HomeBannerText';
 import city from '../../assets/img/cityscape-1.jpg';
 
 const bannerText = {
@@ -16,7 +16,7 @@ const bannerText = {
 const Home = () =>
   <div id="homepage">
     <Banner image={city}>
-      <BannerText text={bannerText}/>
+      <HomeBannerText />
     </Banner>
   </div>
 
