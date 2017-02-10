@@ -5,7 +5,7 @@ import {Link, IndexLink} from 'react-router';
 
 import Header from '../Header/Header';
 import Banner from '../Banner/Banner';
-import BannerText from '../Banner/BannerText';
+import AboutBannerText from './AboutBannerText';
 import hill from '../../assets/img/hills-1.jpg';
 
 const bannerText = {
@@ -17,7 +17,7 @@ const About = () =>
   <div id="about-page">
     <Header/>
     <Banner image={hill} >
-      <BannerText text={bannerText} />
+      <AboutBannerText />
     </Banner>
   </div>
 

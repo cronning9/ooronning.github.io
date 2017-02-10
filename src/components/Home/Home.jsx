@@ -3,7 +3,7 @@
 import React from 'react';
 
 import Banner from '../Banner/Banner';
-import HomeBannerText from '../Home/HomeBannerText';
+import HomeBannerText from './HomeBannerText';
 import city from '../../assets/img/cityscape-1.jpg';
 
 const bannerText = {
