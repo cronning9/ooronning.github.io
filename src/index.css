@@ -116,12 +116,12 @@ p {
 }
 
 #banner-text h1 {
-  font-size: 5em;
+  font-size: 4em;
 }
 
 #banner-text h2 {
   padding-top: .4em;
-  font-size: 2.85em;
+  font-size: 2.29em;
 }
 
 #banner-text p {
@@ -129,7 +129,7 @@ p {
   font-size: 1.3em;
 }
 
-@media (max-width: 980px) {
+@media (max-width: 1010px) {
   #banner-text h1 {
     font-size: 2.75em;
   }
