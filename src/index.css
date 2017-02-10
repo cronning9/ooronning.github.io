@@ -20,6 +20,8 @@ p {
   text-align: center;
 }
 
+/* HEADER */
+
 .header {
   position: fixed;
   top: 0;
@@ -76,31 +78,21 @@ p {
   text-decoration: none;
 }
 
-#homepage {
-  /*font-size: large;*/
-}
+/* BANNER */
 
-#banner-wrapper {
+#banner{
   margin-top: 80px;
-}
-
-#banner {
-  position: relative;
   width: 100%;
-  overflow: hidden;
-  max-height: 80vh;
-}
-
-#banner img {
-  width: 100%;
-  top: 0;
-  bottom: 0;
-  margin: auto;
+  height: 60vh;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 #banner-text-container {
   position: absolute;
-  top: 30%;
+  top: 15%;
   left: 50%;
   margin: 0 auto;
   z-index: 100;
@@ -116,7 +108,7 @@ p {
 }
 
 #banner-text h1 {
-  font-size: 4em;
+  font-size: 2.75em;
 }
 
 #banner-text h2 {
@@ -126,17 +118,54 @@ p {
 
 #banner-text p {
   margin-top: .5em;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
-@media (max-width: 1010px) {
-  #banner-text h1 {
-    font-size: 2.75em;
-  }
+#banner-links-container {
+  position: absolute;
+  /* this is a kludge but i'm tired of this crap*/
+  top: 35%;
+  left: 50%;
+  width: 100%;
+  text-align: center;
+}
 
-  #banner-text p {
-    font-size: 1.3em;
-  }
+#banner-links {
+  position: relative;
+  left: -50%;
+}
+
+.banner-link-row {
+  display: block;
+
+}
+
+.banner-link {
+  display: inline-block;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid aliceblue;
+  width: 30%;
+  max-width: 195px;
+  height: 50px;
+  line-height: 50px;
+  margin: 1em 1.5em;
+  padding: 1em;
+}
+
+.banner-link a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.banner-link-default {
+  display: block;
+  height: 100%;
+}
+
+/* this class is only for if the size is too small*/
+.banner-link-small {
+  display: none;
 }
 
 @media (max-width: 730px) {
@@ -153,6 +182,39 @@ p {
   }
 }
 
+/* if size is this small, don't display words, but
+   images or alternative instead */
+@media (max-width: 625px) {
+  .banner-link-default {
+    display: none;
+  }
+
+  .banner-link {
+    width: 20%;
+    margin: .3em;
+  }
+
+  .banner-link-small {
+    display: block;
+    height: 100%
+  }
+
+  .banner-link-small img{
+    height: 55px;
+    width: 55px;
+  }
+
+  #github-logo {
+    background-color: white;
+    border-radius: 100%;
+  }
+
+  #linkedin-logo {
+    width: 80px;
+    height: 15px;
+  }
+}
+
 @media (max-width: 450px) {
 
   #banner-text-container {
@@ -161,9 +223,8 @@ p {
   #banner-text h1 {
     font-size: 1.5em;
   }
-}
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  #banner-text p {
+    font-size: .7em;
+  }
 }
