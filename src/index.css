@@ -80,27 +80,18 @@ p {
 
 /* BANNER */
 
-#banner-wrapper {
+#banner{
   margin-top: 80px;
-}
-
-#banner {
-  position: relative;
   width: 100%;
-  overflow: hidden;
-  max-height: 80vh;
-}
-
-#banner img {
-  width: 100%;
-  top: 0;
-  bottom: 0;
-  margin: auto;
+  height: 60vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 #banner-text-container {
   position: absolute;
-  top: 30%;
+  top: 15%;
   left: 50%;
   margin: 0 auto;
   z-index: 100;

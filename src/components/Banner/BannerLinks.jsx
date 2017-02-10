@@ -2,6 +2,8 @@
 
 import React from 'react';
 
+// TODO shorter than a certain size, show a logo or abbreviated text content
+
 const BannerLinks = () =>
   <div id="banner-links-container">
     <div id="banner-links">

@@ -3,11 +3,8 @@
 import React from 'react';
 
 const Banner = ({image, children}) =>
-  <div id="banner-wrapper">
-    <figure id="banner">
-      <figcaption>{children}</figcaption>
-      <img src={image} role="presentation"/>
-    </figure>
+  <div id="banner" style={{'backgroundImage': `url(${image})`}}>
+      {children}
   </div>
 
 export default Banner;
