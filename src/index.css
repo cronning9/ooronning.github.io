@@ -20,6 +20,8 @@ p {
   text-align: center;
 }
 
+/* HEADER */
+
 .header {
   position: fixed;
   top: 0;
@@ -76,9 +78,7 @@ p {
   text-decoration: none;
 }
 
-#homepage {
-  /*font-size: large;*/
-}
+/* BANNER */
 
 #banner-wrapper {
   margin-top: 80px;
@@ -207,9 +207,4 @@ p {
   #banner-text p {
     font-size: .7em;
   }
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
