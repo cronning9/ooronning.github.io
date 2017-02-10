@@ -144,9 +144,10 @@ p {
   background-color: rgb(0, 0, 0);
   border: 1px solid aliceblue;
   width: 30%;
+  max-width: 195px;
   height: 50px;
   line-height: 50px;
-  margin: 1em 1em;
+  margin: 1em 1.5em;
   padding: 1em;
 }
 
@@ -156,9 +157,14 @@ p {
   text-decoration: none;
 }
 
-.banner-link-span {
+.banner-link-default {
   display: block;
   height: 100%;
+}
+
+/* this class is only for if the size is too small*/
+.banner-link-small {
+  display: none;
 }
 /*
 
@@ -190,6 +196,22 @@ p {
 
   #banner-text p {
     font-size: 1.0em;
+  }
+}
+
+/* if size is this small, don't display words, but
+   images or alternative instead */
+@media (max-width: 625px) {
+  .banner-link-default {
+    display: none;
+  }
+
+  .banner-link {
+    width: 25%;
+  }
+  .banner-link-small {
+    display: block;
+    height: 100%;
   }
 }
 
