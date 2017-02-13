@@ -11,8 +11,9 @@ import MainContent from '../MainContent/MainContent';
 import Image from '../MainContent/Image';
 import TextSection from '../MainContent/TextSection';
 import List from '../MainContent/List';
+
 import hill from '../../assets/img/hills-1.jpg';
-import chris from '../../assets/img/chris.jpg';
+import chris from '../../assets/img/chris2.jpg';
 
 const text = {
   paragraphs: [
@@ -30,6 +31,7 @@ const list = {
     "Location": "Providence, Rhode Island",
   }
 };
+
 const About = () =>
   <div id="about-page">
     <Header/>
@@ -38,9 +40,13 @@ const About = () =>
     </Banner>
     <div id="about-page-content">
       <MainContent header="Christopher Ronning">
-        <Image image={ {src: chris, caption: "Hello!"} }/>
-        <TextSection contents={text} />
-        <List contents={list}/>
+        <div id="about-page-content-top">
+          <Image image={ {src: chris, caption: "Hello!"} }/>
+          <List contents={list}/>
+        </div>
+        <div id="about-page-content-bottom">
+          <TextSection contents={text} />
+        </div>
       </MainContent>
     </div>
   </div>

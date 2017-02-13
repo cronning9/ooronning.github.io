@@ -3,7 +3,7 @@
 import React from 'react';
 
 const MainContent = ({header, children}) =>
-  <div id="main-content">
+  <div className="main-content">
     <h1>{header}</h1>
     {children}
   </div>

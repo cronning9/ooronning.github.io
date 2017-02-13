@@ -4,7 +4,7 @@ import React from 'react';
 
 const List = ({contents}) =>
   <div className="content-list">
-    {contents.title ? <h3>{contents.title}</h3> : ""}
+    {contents.title ? <h2>{contents.title}</h2> : ""}
     <ul>
       {Object.keys(contents.items).map((key, index) =>
         <li key={index}><span className="list-key">{key}</span>: {contents.items[key]}</li>)}
