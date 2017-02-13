@@ -2,11 +2,11 @@
 
 import React from 'react';
 
-const List = ({content}) =>
+const List = ({contents}) =>
   <div className="content-list">
-    {content.title ? <h3>{content.title}</h3> : ""}
+    {contents.title ? <h3>{contents.title}</h3> : ""}
     <ul>
-      {Object.keys(content.items).map((key, value) =>
+      {Object.keys(contents.items).map((key, value) =>
         <li><span className="list-key">{key}</span>: {value}</li>)}
     </ul>
   </div>
@@ -14,7 +14,7 @@ const List = ({content}) =>
 export default List;
 
 List.propTypes = {
-  content: React.PropTypes.shape({
+  contents: React.PropTypes.shape({
     title: React.PropTypes.string,
     items: React.PropTypes.object.isRequired
   }).isRequired

@@ -20,11 +20,15 @@ const text = {
   ]
 };
 
-const listContent = {
+const list = {
   title: "Basic Info",
-  items: [
-    ""
-  ]
+  items: {
+    "Name": "Christopher Ronning",
+    "Languages": "Javascript (including ECMAScript 6), Typescript, HTML/CSS, C#, Ruby",
+    "Frameworks and Tools": "React, Node.js, Express, Angular 1, Git",
+    "IDEs/Text Editors": "WebStorm, Sublime Text 3, Visual Studio",
+    "Location": "Providence, Rhode Island",
+  }
 };
 const About = () =>
   <div id="about-page">
@@ -32,11 +36,13 @@ const About = () =>
     <Banner image={hill} >
       <AboutBannerText />
     </Banner>
-    <MainContent header="Christopher Ronning">
-      <Image image={ {src: chris, caption: "Hello!"} }/>
-      <TextSection contents={text} />
-      <List content=""/>
-    </MainContent>
+    <div id="about-page-content">
+      <MainContent header="Christopher Ronning">
+        <Image image={ {src: chris, caption: "Hello!"} }/>
+        <TextSection contents={text} />
+        <List contents={list}/>
+      </MainContent>
+    </div>
   </div>
 
 export default About;
