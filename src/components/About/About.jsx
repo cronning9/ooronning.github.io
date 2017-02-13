@@ -22,7 +22,6 @@ const text = {
 };
 
 const list = {
-  title: "Basic Info",
   items: {
     "Name": "Christopher Ronning",
     "Languages": "Javascript (including ECMAScript 6), Typescript, HTML/CSS, C#, Ruby",
@@ -39,7 +38,7 @@ const About = () =>
       <AboutBannerText />
     </Banner>
     <div id="about-page-content">
-      <MainContent header="Christopher Ronning">
+      <MainContent header="Basic Information">
         <div id="about-page-content-top">
           <Image image={ {src: chris, caption: "Hello!"} }/>
           <List contents={list}/>

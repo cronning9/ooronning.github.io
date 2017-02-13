@@ -259,7 +259,7 @@ p {
 }
 
 #about-page-content-top .content-image {
-  display: inline-block;
+  display: block;
 }
 
 #about-page-content-top .content-image img {
@@ -278,7 +278,7 @@ p {
 }
 
 #about-page-content-top .content-list {
-  display: inline-block;
+  display: block;
   text-align: left;
 }
 
@@ -306,15 +306,4 @@ p {
 
 #about-page-content-bottom p {
   font-size: 18px;
-}
-
-@media (max-width: 500px) {
-  #about-page-content-top .content-image {
-    display: block;
-    text-align: center;
-  }
-
-  #about-page-content-top .content-list {
-    display: block;
-  }
 }
