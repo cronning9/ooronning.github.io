@@ -11,5 +11,8 @@ const Image = ({image}) =>
 export default Image;
 
 Image.propTypes = {
-  image: React.PropTypes.object.isRequired
+  image: React.PropTypes.shape({
+    src: React.PropTypes.string.isRequired,
+    caption: React.PropTypes.string
+  }).isRequired
 };

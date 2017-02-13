@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-const MainContent = ({header}) =>
+const MainContent = ({header, children}) =>
   <div id="main-content">
     <h2>{header}</h2>
     {children}

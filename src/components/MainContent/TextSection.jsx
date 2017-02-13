@@ -15,5 +15,5 @@ TextSection.propTypes = {
   contents: React.PropTypes.shape({
     header: React.PropTypes.string,
     paragraphs: React.PropTypes.arrayOf(React.PropTypes.string).isRequired
-  })
+  }).isRequired
 };
