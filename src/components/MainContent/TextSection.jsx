@@ -5,7 +5,7 @@ import React from 'react';
 const TextSection = ({contents}) =>
   <div className="content-text-section">
     {contents.header ? <h3>{contents.header}</h3> : ""}
-    {contents.paragraphs.map(text => <p>{text}</p>)}
+    {contents.paragraphs.map((text, index) => <p key={index}>{text}</p>)}
   </div>
 
 

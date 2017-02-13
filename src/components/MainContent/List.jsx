@@ -6,8 +6,8 @@ const List = ({contents}) =>
   <div className="content-list">
     {contents.title ? <h3>{contents.title}</h3> : ""}
     <ul>
-      {Object.keys(contents.items).map((key, value) =>
-        <li><span className="list-key">{key}</span>: {value}</li>)}
+      {Object.keys(contents.items).map((key, index) =>
+        <li key={index}><span className="list-key">{key}</span>: {contents.items[key]}</li>)}
     </ul>
   </div>
 
