@@ -43,11 +43,9 @@ const About = () =>
     </Banner>
     <div id="about-page-content">
       <MainContent header="Christopher Ronning">
-        <div id="about-page-content-wrapper">
           <Image image={ {src: chris, caption: "Hello!"} }/>
           <List contents={list}/>
           <TextSection contents={text} />
-        </div>
       </MainContent>
     </div>
   </div>
