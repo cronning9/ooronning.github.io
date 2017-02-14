@@ -5,6 +5,6 @@ import React from 'react';
 import BannerText from '../Banner/BannerText';
 
 const AboutBannerText = () => <BannerText title="About Me"
-                                          subtitle="My Story and Career Thus Far"/>
+                                          subtitle="The Riveting Tale of Me"/>
 
 export default AboutBannerText;
