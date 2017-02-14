@@ -11,7 +11,7 @@ import MainContent from '../MainContent/MainContent';
 import Image from '../MainContent/Image';
 import TextSection from '../MainContent/TextSection';
 import List from '../MainContent/List';
-import InterruptBar from '../InterruptBar/InterrputBar';
+import InterruptBar from '../InterruptBar/InterruptBar';
 import InterruptLinkBox from '../InterruptBar/InterruptLinkBox';
 
 import hill from '../../assets/img/hills-1.jpg';
@@ -19,10 +19,14 @@ import chris from '../../assets/img/chris2.jpg';
 
 const text = {
   paragraphs: [
-    `Christopher Ronning is a New England-based software developer, with a current focus on Front-end Web Development. ` +
-    `He's worked on codebases written with pure Javascript, React, Meteor, C#, Ruby, and Typescript, and enjoys ` +
-    `writing robust web applications, versatile server middleware, reusable functions, and clean code. The satisfaction ` +
-    `he derives from certain ES6 features is a little weird.`
+    `Christopher Ronning is a New England-based software developer, with a current focus on Front-end Web ` +
+    `Development. He's worked on codebases written with pure Javascript, React, Meteor, C#, Ruby, and Typescript, ` +
+    `and enjoys writing robust web applications, versatile server middleware, reusable functions, and clean code. ` +
+    `He derives great satisfaction from well-crafted software, dev tools that work, and clever language features `  +
+    `such as those one might find in ES6.`,
+
+    `Other interests include art and culture, heavy metal, psychology, meditation, history, and politics. He ` +
+    `really likes coffee and will probably suffer the consequences of that one day.`
   ]
 };
 
@@ -54,7 +58,7 @@ const About = () =>
       <div className="interrupt-links-container">
         <InterruptLinkBox linkText="LinkedIn" href="https://www.linkedin.com/in/christopherronning"/>
         <InterruptLinkBox linkText="GitHub" href="https://www.github.com/ooronning"/>
-        <InterruptLinkBox linkText="E-Mail Me" href="mailto:general-tso@chicken.parts"/>
+        <InterruptLinkBox linkText="E-Mail Me" href="mailto:chris@chrisronning.com"/>
       </div>
     </InterruptBar>
     

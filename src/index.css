@@ -246,6 +246,9 @@ p {
   text-align: left;
 }
 
+#about-page-content p {
+  margin-bottom: 1em;
+}
 .main-content {
   display: block;
   /*overflow: auto;*/
@@ -318,6 +321,22 @@ p {
     float: none;
     border: none;
   }
+
+  #about-page-content p, #about-page-content ul {
+    font-size: 16px;
+  }
+}
+
+/* Home Page Content*/
+
+#home-page-content {
+  margin: 1em .5em;
+}
+
+
+#home-page-content p {
+  font-size: 18px;
+  margin-top: .5em;
 }
 
 /*Interruption Bar*/
