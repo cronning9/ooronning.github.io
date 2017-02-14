@@ -22,7 +22,7 @@ const BannerLinks = () =>
           <a href="https://www.linkedin.com/pub/christopher-ronning/42/11a/334">
             <span className="banner-link-default">Add me on LinkedIn</span>
             <span className="banner-link-small">
-              <img id="linkedin-logo" src="https://static.licdn.com/scds/common/u/img/webpromo/btn_liprofile_blue_80x15.png" width="80" height="15" border="0" alt="View Christopher Ronning's profile on LinkedIn" />
+              <img id="linkedin-logo" src="https://static.licdn.com/scds/common/u/img/webpromo/btn_liprofile_blue_80x15.png" alt="View Christopher Ronning's profile on LinkedIn" />
             </span>
           </a>
         </div>

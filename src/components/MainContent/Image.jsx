@@ -4,7 +4,7 @@ import React from 'react';
 
 const Image = ({image}) =>
   <div className="content-image">
-      <img src={image.src} />
+      <img src={image.src} role="presentation"/>
       <p>{image.caption}</p>
   </div>
 
@@ -14,5 +14,5 @@ Image.propTypes = {
   image: React.PropTypes.shape({
     src: React.PropTypes.string.isRequired,
     caption: React.PropTypes.string
-  }).is
+  }).isRequired
 };

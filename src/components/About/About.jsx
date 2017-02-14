@@ -25,7 +25,7 @@ const text = {
     `He derives great satisfaction from well-crafted software, dev tools that work, and clever language features `  +
     `such as those one might find in ES6.`,
 
-    `Other interests include art and culture, heavy metal, psychology, meditation, history, and politics. He ` +
+    `Other interests include art and culture, heavy metal, meditation, history, and politics. He ` +
     `really likes coffee and will probably suffer the consequences of that one day.`
   ]
 };
@@ -56,7 +56,7 @@ const About = () =>
     </div>
     <InterruptBar>
       <div className="interrupt-links-container">
-        <InterruptLinkBox linkText="LinkedIn" href="https://www.linkedin.com/in/christopherronning"/>
+        <InterruptLinkBox linkText="LinkedIn" href="https://www.linkedin.com/pub/christopher-ronning/42/11a/334"/>
         <InterruptLinkBox linkText="GitHub" href="https://www.github.com/ooronning"/>
         <InterruptLinkBox linkText="E-Mail Me" href="mailto:chris@chrisronning.com"/>
       </div>

@@ -8,16 +8,20 @@ import BannerLinks from '../Banner/BannerLinks';
 
 import MainContent from '../MainContent/MainContent';
 import TextSection from '../MainContent/TextSection';
+import Image from '../MainContent/Image';
 
 import InterruptBar from '../InterruptBar/InterruptBar';
 import InterruptLinkBox from '../InterruptBar/InterruptLinkBox';
 
-import city from '../../assets/img/cityscape-1.jpg';
+import pc from '../../assets/img/PCInternals.jpg'
+import motherboard from '../../assets/img/Motherboard2.jpeg';
+import hamilton from '../../assets/img/hamilton.jpg'
 
 const text = {
   paragraphs: [
-    `Thanks for visiting my little space on the Internet. From here you can view my Portfolio,`+
-    `find a link to my Github and other social media presences, get my e-mail addy, and....`,
+    `Thanks for visiting my little space on the Internet. Briefly, I'm a Software Developer who ` +
+    `enjoys working on projects from Front-end Web, to server middleware, to BitTorrent, and more. From this site ` +
+    `you can view my Portfolio, find a link to my Github and other social media presences, get my e-mail addy, and....`,
 
     `Well, that's actually about it right now. You can expect to see a blog up here ` +
     `eventually, on which I'll probably post musings on technology, programming, art, culture, ` +
@@ -28,19 +32,19 @@ const text = {
 // TODO: add some links as children to the banner
 const Home = () =>
   <div id="homepage">
-    <Banner image={city}>
+    <Banner image={motherboard}>
       <HomeBannerText />
       <BannerLinks />
     </Banner>
     <div id="home-page-content">
       <MainContent header="Welcome">
-
         <TextSection contents={text}/>
+        <Image image={ {src: hamilton, caption: "Margaret Hamilton does way more work than I"} } />
       </MainContent>
     </div>
     <InterruptBar>
       <div className="interrupt-links-container">
-        <InterruptLinkBox linkText="LinkedIn" href="https://www.linkedin.com/in/christopherronning"/>
+        <InterruptLinkBox linkText="LinkedIn" href="https://www.linkedin.com/pub/christopher-ronning/42/11a/334"/>
         <InterruptLinkBox linkText="GitHub" href="https://www.github.com/ooronning"/>
         <InterruptLinkBox linkText="E-Mail Me" href="mailto:chris@chrisronning.com"/>
       </div>
