@@ -3,7 +3,7 @@
 import React from 'react';
 
 const Banner = ({image, children}) =>
-  <div id="banner" style={{'backgroundImage': `url(${image})`}}>
+  <div className="banner" style={{'backgroundImage': `url(${image})`}}>
       {children}
   </div>
 

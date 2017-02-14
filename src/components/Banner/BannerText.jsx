@@ -3,8 +3,8 @@
 import React from 'react';
 
 const BannerText = ({title, subtitle}) =>
-  <div id="banner-text-container">
-    <div id="banner-text">
+  <div className="banner-text-container">
+    <div className="banner-text">
       <h1>
         {title}
       </h1>
