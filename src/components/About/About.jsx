@@ -17,11 +17,15 @@ import chris from '../../assets/img/chris2.jpg';
 
 const text = {
   paragraphs: [
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras quis mi sodales, sollicitudin mi id, efficitur erat. Quisque suscipit felis vitae nunc fringilla pretium. Sed sed varius libero. Donec varius, ex non sagittis bibendum, nunc magna sagittis odio, ut eleifend turpis justo a arcu. Vestibulum sed sem id mi accumsan aliquet ac non enim. In porttitor cursus ex, sit amet facilisis tortor. Vivamus eleifend, sem eu hendrerit lacinia, nunc dolor malesuada turpis, id rutrum tortor purus nec elit. Pellentesque venenatis vel lacus a convallis. Nulla magna nibh, placerat a leo ut, feugiat imperdiet eros."
+    `Christopher Ronning is a New England-based software developer, with a current focus on Front-end Web Development. ` +
+    `He's worked on codebases written with pure Javascript, React, Meteor, C#, Ruby, and Typescript, and enjoys ` +
+    `writing robust web applications, versatile server middleware, reusable functions, and clean code. The satisfaction ` +
+    `he derives from certain ES6 features is a little weird.`
   ]
 };
 
 const list = {
+  title: "Basic Info",
   items: {
     "Name": "Christopher Ronning",
     "Languages": "Javascript (including ECMAScript 6), Typescript, HTML/CSS, C#, Ruby",
@@ -38,12 +42,10 @@ const About = () =>
       <AboutBannerText />
     </Banner>
     <div id="about-page-content">
-      <MainContent header="Basic Information">
-        <div id="about-page-content-top">
+      <MainContent header="Christopher Ronning">
+        <div id="about-page-content-wrapper">
           <Image image={ {src: chris, caption: "Hello!"} }/>
           <List contents={list}/>
-        </div>
-        <div id="about-page-content-bottom">
           <TextSection contents={text} />
         </div>
       </MainContent>
