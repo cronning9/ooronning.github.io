@@ -408,3 +408,26 @@ p {
 .interrupt-links-container {
   margin-top: 1.5em;
 }
+
+/* No Match Page*/
+
+#no-match-outer {
+  margin-top: 80px;
+}
+
+#no-match-outer img {
+  height: 100vh;
+  margin: 0 auto;
+}
+
+@media (min-width: 1225px) {
+  #no-match-outer img {
+    width: 100vw;
+  }
+}
+
+#no-match-outer .banner-text-container {
+  display: block;
+  margin: 0 auto;
+  top: 250px;
+}

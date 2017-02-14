@@ -16,8 +16,8 @@ ReactDOM.render((
     <Route path="/" component={App}>
       <IndexRoute component={Home}/>
       <Route path="about" component={About}/>
+      <Route path="*" component={NoMatch} />
     </Route>
-    <Route path="*" component={NoMatch} />
   </Router>
   ), document.getElementById('root')
 );
