@@ -311,12 +311,50 @@ p {
 }
 
 @media (max-width: 450px) {
+
   .main-content .content-image {
     display: block;
     text-align: center;
     float: none;
     border: none;
   }
+}
+
+/*Interruption Bar*/
+
+.interrupt-bar {
+  display: block;
+  height: 300px;
+  background-color: black;
+  color: white;
+  padding: 1em;
+}
 
 
+.interrupt-bar-link {
+  display: inline-block;
+  width: 20%;
+  height: 75px;
+  border: 2px solid white;
+  margin: 2em;
+  background-color: white;
+}
+
+.interrupt-bar-link a {
+  text-decoration: none;
+}
+
+.interrupt-bar-link-inner {
+  height: 100%;
+}
+
+.interrupt-bar-link p {
+  margin-top: .8em;
+  color: black;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.interrupt-links-container {
+  margin-top: 2em;
 }

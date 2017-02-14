@@ -11,6 +11,8 @@ import MainContent from '../MainContent/MainContent';
 import Image from '../MainContent/Image';
 import TextSection from '../MainContent/TextSection';
 import List from '../MainContent/List';
+import InterruptBar from '../InterruptBar/InterrputBar';
+import InterruptLinkBox from '../InterruptBar/InterruptLinkBox';
 
 import hill from '../../assets/img/hills-1.jpg';
 import chris from '../../assets/img/chris2.jpg';
@@ -43,11 +45,19 @@ const About = () =>
     </Banner>
     <div id="about-page-content">
       <MainContent header="Christopher Ronning">
-          <Image image={ {src: chris, caption: "Hello!"} }/>
+          <Image image={ {src: chris, caption: "Hey"} }/>
           <List contents={list}/>
           <TextSection contents={text} />
       </MainContent>
     </div>
+    <InterruptBar>
+      <div className="interrupt-links-container">
+        <InterruptLinkBox linkText="LinkedIn" href="https://www.linkedin.com/in/christopherronning"/>
+        <InterruptLinkBox linkText="GitHub" href="https://www.github.com/ooronning"/>
+        <InterruptLinkBox linkText="E-Mail Me" href="mailto:general-tso@chicken.parts"/>
+      </div>
+    </InterruptBar>
+    
   </div>
 
 export default About;
