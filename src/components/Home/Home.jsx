@@ -29,6 +29,7 @@ const text = {
   ]
 };
 
+
 // TODO: add some links as children to the banner
 const Home = () =>
   <div id="homepage">
@@ -40,6 +41,13 @@ const Home = () =>
       <MainContent header="Welcome">
         <TextSection contents={text}/>
         <Image image={ {src: hamilton, caption: "Margaret Hamilton does way more work than I"} } />
+        <div id="short-text">
+          <div className="paragraph-wrapper">
+            <p>This page was built from scratch, using React and a very basic Node server.
+              If you'd like, check out the <a href="https://github.com/ooronning/ronning-homepage">source code here.</a>
+            </p>
+          </div>
+        </div>
       </MainContent>
     </div>
     <InterruptBar>
