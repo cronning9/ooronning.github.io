@@ -5,7 +5,7 @@ const app = express();
 const morgan = require('morgan');
 const path = require('path');
 
-app.use(morgan('dev'));
+app.use(morgan('common'));
 app.use(express.static('./build'));
 
 app.get('*', (req, res) => res.sendFile(path.join(__dirname, 'build', 'index.html')));
