@@ -19,8 +19,8 @@ import hamilton from '../../assets/img/hamilton.jpg'
 
 const text = {
   paragraphs: [
-    `Thanks for visiting my little space on the Internet. Briefly, I'm a Software Developer who ` +
-    `has enjoyed working on Front-end Web, server middleware, BitTorrent, and more. From this site ` +
+    `Thanks for visiting my little space on the Internet. Briefly, I'm a Software Developer based in Providence, ` +
+    `RI, who has enjoyed working on front-end Web applications, server middleware, BitTorrent, and more. From this site ` +
     `you can view my Portfolio, find a link to my Github and other social media presences, get my e-mail addy, and....`,
 
     `Well, that's actually about it right now. You can expect to see a blog up here ` +
