@@ -2,50 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed1ad1fc-7357-4dcf-a22b-57a9000be6e6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CNAME" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/App.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/GitHub-Mark-32px.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/GitHub-Mark-64px.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/Motherboard2.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/PCInternals.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/chris.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/chris2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/cityscape-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/hamilton.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/hills-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/hills-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/logo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/ship.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/sky.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/stack-overflow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/About/About.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/About/AboutBannerText.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/App.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Banner/Banner.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Banner/BannerLinks.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Banner/BannerText.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/BottomBar.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Errors/NoMatch.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Header/Nav.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Home/Home.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Home/HomeBannerText.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/InterruptBar/InterruptBar.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/InterruptBar/InterruptLinkBox.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/MainContent/Image.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/MainContent/List.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/MainContent/MainContent.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/MainContent/TextSection.jsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/index.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/asset-manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/css/main.444b79e9.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/css/main.444b79e9.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/js/main.5655c149.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/js/main.5655c149.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/media/Motherboard2.03db3613.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/media/chris2.0128203c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/media/hamilton.5b67618e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/media/hills-1.2f81eb40.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/media/logo.9c5ead28.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/media/ship.83850887.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -70,43 +40,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="481" lean-forward="false" selection-start-line="0" selection-start-column="481" selection-end-line="0" selection-end-column="481" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.5655c149.js.map" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/static/js/main.5655c149.js.map">
-          <provider editor-type-id="sourcemapFileViewerProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="1459" lean-forward="false" selection-start-line="0" selection-start-column="1459" selection-end-line="0" selection-end-column="1459" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.444b79e9.css.map" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/static/css/main.444b79e9.css.map">
-          <provider editor-type-id="sourcemapFileViewerProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="59" lean-forward="false" selection-start-line="0" selection-start-column="59" selection-end-line="0" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="asset-manifest.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/asset-manifest.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+              <caret line="0" column="47" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -175,6 +109,12 @@
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -232,15 +172,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ooron\Desktop\Current Work\personal-site\ronning-personal-site\src\assets\img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ooron\Desktop\Current Work\personal-site\ronning-personal-site" />
       <recent name="C:\Users\ooron\Desktop\Current Work\personal-site\ronning-personal-site\public" />
       <recent name="C:\Users\ooron\Desktop\Current Work\personal-site\ronning-personal-site\src\assets\img" />
       <recent name="C:\Users\ooron\Desktop\Current Work\personal-site\ronning-personal-site\src\assets\stack-overflow" />
       <recent name="C:\Users\ooron\Desktop\Current Work\personal-site\ronning-personal-site\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ooron\Desktop\Current Work\personal-site\ronning-personal-site\src\assets\img" />
     </key>
   </component>
   <component name="RunManager">
@@ -321,12 +261,12 @@
       <workItem from="1486835283369" duration="9000" />
       <workItem from="1487009801269" duration="23580000" />
       <workItem from="1487095870483" duration="23524000" />
-      <workItem from="1487127845413" duration="61000" />
+      <workItem from="1487127845413" duration="212000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87122000" />
+    <option name="totallyTimeSpent" value="87273000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -341,12 +281,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15279241" sideWeight="0.49434572" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30189672" sideWeight="0.49434572" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30769232" sideWeight="0.5021075" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26868907" sideWeight="0.49789253" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2990249" sideWeight="0.49789253" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2990249" sideWeight="0.49789253" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18440464" sideWeight="0.5056543" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -639,12 +579,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/favicon.ico">
+    <entry file="file://$PROJECT_DIR$/favicon.ico">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/static/css/main.444b79e9.css.map">
+    <entry file="file://$PROJECT_DIR$/static/css/main.444b79e9.css.map">
       <provider editor-type-id="sourcemapFileViewerProvider">
         <state />
       </provider>
@@ -655,7 +595,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/asset-manifest.json">
+    <entry file="file://$PROJECT_DIR$/asset-manifest.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
@@ -694,7 +634,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="481" lean-forward="false" selection-start-line="0" selection-start-column="481" selection-end-line="0" selection-end-column="481" />
+          <caret line="0" column="47" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="47" />
           <folding />
         </state>
       </provider>
