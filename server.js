@@ -10,6 +10,6 @@ app.use(express.static('./build'));
 
 app.get('*', (req, res) => res.sendFile(path.join(__dirname, 'build', 'index.html')));
 
-const listener = app.listen(3000, () => {
+const listener = app.listen(process.env.PORT || 3000, () => {
   console.log(`now listening on ${listener.address().port}`)
 });
