@@ -13,7 +13,6 @@ import Image from '../MainContent/Image';
 import InterruptBar from '../InterruptBar/InterruptBar';
 import InterruptLinkBox from '../InterruptBar/InterruptLinkBox';
 
-import pc from '../../assets/img/PCInternals.jpg'
 import motherboard from '../../assets/img/Motherboard2.jpeg';
 import hamilton from '../../assets/img/hamilton.jpg'
 
