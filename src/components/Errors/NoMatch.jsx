@@ -2,9 +2,6 @@
 
 import React from 'react';
 
-import Header from '../Header/Header';
-
-import Banner from '../Banner/Banner';
 import BannerText from '../Banner/BannerText';
 import ship from '../../assets/img/ship.jpg';
 
