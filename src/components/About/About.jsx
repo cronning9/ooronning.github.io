@@ -49,9 +49,9 @@ const About = () =>
     </Banner>
     <div id="about-page-content">
       <MainContent header="Christopher Ronning">
-          <Image image={ {src: chris, caption: "Hey"} }/>
-          <List contents={list}/>
-          <TextSection contents={text} />
+        <Image image={ {src: chris, caption: "Hey"} }/>
+        <List contents={list}/>
+        <TextSection contents={text} />
       </MainContent>
     </div>
     <InterruptBar>
