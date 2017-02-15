@@ -2,7 +2,7 @@
   "name": "ronning-personal-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://www.chrisronning.com",
+  "homepage": "https://ooronning.github.io",
   "devDependencies": {
     "gh-pages": "^0.12.0",
     "react-scripts": "0.8.5"
