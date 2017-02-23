@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+  overflow: none;
 }
 
 h1 {
@@ -367,6 +368,34 @@ p {
   font-size: 14px;
 }
 
+/* Portfolio Page */
+
+#showcase-slider {
+  text-align: left;
+  width: 100%;
+}
+
+.slide {
+  height: 350px;
+  padding: 2em;
+}
+
+.slide h2 {
+  text-align: center;
+  font-size: 2.0em;
+  padding-bottom: .5em;
+}
+
+.slide p {
+  margin-bottom: 1em;
+  font-size: 1.3em;
+}
+
+.slide a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #8b0000;
+}
 /*Interruption Bar*/
 
 .interrupt-bar {
