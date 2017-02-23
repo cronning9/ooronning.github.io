@@ -4,11 +4,10 @@ import React from 'react';
 
 import Banner from '../Banner/Banner';
 import PortfolioBannerText from './PortfolioBannerText';
-import BannerLinks from '../Banner/BannerLinks';
 
 import MainContent from '../MainContent/MainContent';
 import TextSection from '../MainContent/TextSection';
-import Image from '../MainContent/Image';
+import ContentShowcaseSlider from './ContentShowcaseSlider';
 
 import InterruptBar from '../InterruptBar/InterruptBar';
 import InterruptLinkBox from '../InterruptBar/InterruptLinkBox';
@@ -22,9 +21,8 @@ const Portfolio = () =>
     </Banner>
     <div id="portfolio-page-content">
       <MainContent header="Work Portfolio">
-        
+        <ContentShowcaseSlider/>
       </MainContent>
-
     </div>
   </div>
 
