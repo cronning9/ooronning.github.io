@@ -375,8 +375,19 @@ p {
   width: 100%;
 }
 
+#showcase-slider .fa-1 {
+  position: relative;
+  bottom: 250px;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+#showcase-slider .fa-chevron-right {
+  float: right;
+}
+
 .slide {
-  height: 350px;
+  height: 300px;
   padding: 2em;
 }
 
