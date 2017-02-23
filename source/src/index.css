@@ -375,20 +375,39 @@ p {
   width: 100%;
 }
 
-#showcase-slider .fa-1 {
-  position: relative;
-  bottom: 250px;
-  font-size: 40px;
+.slider-arrow {
+  position: absolute;
+  display: inline-block;
+  margin-top: 100px;
   cursor: pointer;
 }
 
-#showcase-slider .fa-chevron-right {
+#left-arrow {
+  float: left;
+}
+
+#right-arrow {
   float: right;
+  right: 0;
+}
+
+#showcase-slider .fa-1 {
+  /*position: relative;*/
+  /*bottom: 250px;*/
+  font-size: 40px;
+  padding: .3em;
+  /*cursor: pointer;*/
+}
+
+#showcase-slider .fa-chevron-right {
+  /*float: right;*/
 }
 
 .slide {
+  display: inline-block;
   height: 300px;
-  padding: 2em;
+  padding: 2em 3em;
+  /*width: 85%;*/
 }
 
 .slide h2 {
