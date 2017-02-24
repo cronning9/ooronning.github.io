@@ -370,6 +370,9 @@ p {
 
 /* Portfolio Page */
 
+#portfolio-page-content {
+  margin-top: 1em;
+}
 #showcase-slider {
   text-align: left;
   width: 100%;
