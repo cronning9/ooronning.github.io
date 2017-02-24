@@ -2,19 +2,28 @@
 
 const projects = [
   {
-    title: "Example 1",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    link: "http://www.example.com"
+    title: "Unnamed CounterStrike Skins Contest",
+    description: "A web application built to facilitate giveaway contests in the Steam game Counterstrike: Global " +
+                 "Offensive. Front end uses React and a custom controller, data model, and router built from scratch. " +
+                 "Back-end uses Express to serve a Webpack bundle, and to make calls to the Steam API. Note: this is " +
+                 "a work in progress, and is currently on hold per client request. Linked is a client-approved sample " +
+                 "of some of the code.",
+    link: "https://github.com/ooronning/cs-skins-contest"
   },
   {
-    title: "Example 2",
-    description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    link: "http://www.example.org"
+    title: "ZimArt Mobile",
+    description: "The mobile site for a sculpture gallery in Ontario, Canada. This is an older application built with " +
+                 "Angular 1. I built in a new swipeable image gallery overlay, and later totally re-vamped the image " +
+                 "gallery with a modern, swipeable interface. Constructed with Angular 1, JQuery, and vanilla Javascript. " +
+                 "Best viewed on mobile.",
+    link: "http://m.zimart.ca"
   },
   {
-    title: "Example 3",
-    description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
-    link: "http://en.wikipedia.org"
+    title: "chrisronning.com",
+    description: "The site you're looking at. Written from scratch using React and some CSS3 techniques. A work in " +
+                 "progress, but I've come out of it with some nice, re-usable React components. See link below " +
+                 "for the codebase.",
+    link: "https://github.com/ooronning/ooronning.github.io"
   }
 ];
 
