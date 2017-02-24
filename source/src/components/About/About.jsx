@@ -19,7 +19,7 @@ import chris from '../../assets/img/chris2.jpg';
 
 const text = {
   paragraphs: [
-    `Christopher Ronning is a New England-based software developer, with a current focus on Front-end Web ` +
+    `Christopher Ronning is a New England-based software developer, with a profesional focus on Front-end Web ` +
     `Development. He's worked on codebases written with pure Javascript, React, Meteor, C#, Ruby, and Typescript, ` +
     `and enjoys writing robust web applications, versatile server middleware, reusable functions, and clean code. ` +
     `He derives great satisfaction from well-crafted software, dev tools that work, and clever language features `  +

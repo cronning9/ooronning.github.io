@@ -25,7 +25,7 @@ const text = {
 
     `Well, that's actually about it right now. You can expect to see a blog up here ` +
     `eventually, on which I'll probably post musings on technology, programming, art, culture, ` +
-    `and definitely not politics, mercifully.`
+    `and definitely not politics, I promise.`
   ]
 };
 
