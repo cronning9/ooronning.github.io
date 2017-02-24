@@ -421,6 +421,7 @@ p {
 .slide p {
   margin-bottom: 1em;
   font-size: 1.3em;
+  padding: 0 1em;
 }
 
 .slide a {

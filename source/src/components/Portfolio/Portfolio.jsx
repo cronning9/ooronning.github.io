@@ -6,7 +6,6 @@ import Banner from '../Banner/Banner';
 import PortfolioBannerText from './PortfolioBannerText';
 
 import MainContent from '../MainContent/MainContent';
-import TextSection from '../MainContent/TextSection';
 import ContentShowcaseSlider from './ContentShowcaseSlider';
 
 import InterruptBar from '../InterruptBar/InterruptBar';
