@@ -14,18 +14,31 @@ export default class ContentShowcaseSlider extends React.Component {
 
     this.nextSlide = this.nextSlide.bind(this);
     this.prevSlide = this.prevSlide.bind(this);
+    this.fadeOut = this.fadeOut.bind(this);
+  }
+
+  componentDidUpdate() {
+    const slide = document.getElementsByClassName('slide')[0];
+    slide.style.opacity = 1;
+  }
+
+  fadeOut() {
+    const slide = document.getElementsByClassName('slide')[0];
+    slide.style.opacity = 0;
   }
 
   prevSlide() {
+    this.fadeOut();
     const currentSlide = this.state.slideIndex;
     const nextSlide = currentSlide === 0 ? projects.length - 1 : currentSlide - 1;
-    this.setState({slideIndex: nextSlide});
+    setTimeout(() => this.setState({slideIndex: nextSlide}), 1000);
   }
 
   nextSlide() {
+    this.fadeOut();
     const currentSlide = this.state.slideIndex;
     const nextSlide = currentSlide === projects.length - 1 ? 0 : currentSlide + 1;
-    this.setState({slideIndex: nextSlide});
+    setTimeout(() => this.setState({slideIndex: nextSlide}), 1000);
   }
 
   render() {
