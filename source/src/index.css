@@ -380,6 +380,7 @@ p {
   display: inline-block;
   margin-top: 100px;
   cursor: pointer;
+  z-index: 100;
 }
 
 #left-arrow {
@@ -407,7 +408,8 @@ p {
   display: inline-block;
   height: 300px;
   padding: 2em 3em;
-  /*width: 85%;*/
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
 }
 
 .slide h2 {
