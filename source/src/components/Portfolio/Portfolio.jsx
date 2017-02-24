@@ -20,10 +20,17 @@ const Portfolio = () =>
       <PortfolioBannerText/>
     </Banner>
     <div id="portfolio-page-content">
-      <MainContent header="Work Portfolio">
+      <MainContent header="Work Samples">
         <ContentShowcaseSlider/>
       </MainContent>
     </div>
+    <InterruptBar>
+      <div className="interrupt-links-container">
+        <InterruptLinkBox linkText="LinkedIn" href="https://www.linkedin.com/pub/christopher-ronning/42/11a/334"/>
+        <InterruptLinkBox linkText="GitHub" href="https://www.github.com/ooronning"/>
+        <InterruptLinkBox linkText="E-Mail Me" href="mailto:chris@chrisronning.com"/>
+      </div>
+    </InterruptBar>
   </div>
 
 export default Portfolio;
