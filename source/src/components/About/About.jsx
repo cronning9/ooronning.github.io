@@ -22,8 +22,7 @@ const text = {
     `Christopher Ronning is a New England-based software developer, with a profesional focus on Front-end Web ` +
     `Development. He's worked on codebases written with pure Javascript, React, Meteor, C#, Ruby, and Typescript, ` +
     `and enjoys writing robust web applications, versatile server middleware, reusable functions, and clean code. ` +
-    `He derives great satisfaction from well-crafted software, dev tools that work, and clever language features `  +
-    `such as those one might find in ES6.`,
+    `He derives great satisfaction from well-crafted software, dev tools that work, and clever language features `,
 
     `Other interests include art and culture, heavy metal, meditation, history, and politics. He ` +
     `really likes coffee and will probably suffer the consequences of that one day.`
@@ -35,7 +34,7 @@ const list = {
   items: {
     "Name": "Christopher Ronning",
     "Languages": "Javascript (including ECMAScript 6), Typescript, HTML/CSS, C#, Ruby",
-    "Frameworks and Tools": "React, Node.js, Express, Angular 1, Git",
+    "Frameworks and Tools": "React, Node.js, Express, Angular 1, .NET Core, Git",
     "IDEs/Text Editors": "WebStorm, Sublime Text 3, Visual Studio",
     "Location": "Providence, Rhode Island",
   }
