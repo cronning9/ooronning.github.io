@@ -11,6 +11,12 @@ const projects = [
     link: "https://github.com/ooronning/cs-skins-contest"
   },
   {
+    title: "Ferro (working name)",
+    description: "Aspires to be a full-featured BitTorrent client. Written in C# with .NET Core, this is a work in " +
+                 "progress, built straight from the official BitTorrent protocol specifications.",
+    link: "https://gitlab.com/banks/ferro"
+  },
+  {
     title: "ZimArt Mobile",
     description: "The mobile site for a sculpture gallery in Ontario, Canada. This is an older application built with " +
                  "Angular 1. I built in a new swipeable image gallery overlay, and later totally re-vamped the image " +

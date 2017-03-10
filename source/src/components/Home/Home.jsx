@@ -20,8 +20,7 @@ const text = {
   paragraphs: [
     `Thanks for visiting my little space on the Internet. Briefly, I'm a Software Developer based in Providence, ` +
     `RI, who has enjoyed working on front-end Web applications, server middleware, BitTorrent, and more. From this site ` +
-    `you can view my Portfolio (not yet completed, but coming soon!), find a link to my Github and other social media` +
-    `presences, get my e-mail addy, and....`,
+    `you can view my Portfolio, find a link to my Github and other social media presences, get my e-mail addy, and....`,
 
     `Well, that's actually about it right now. You can expect to see a blog up here ` +
     `eventually, on which I'll probably post musings on technology, programming, art, culture, ` +
@@ -29,8 +28,6 @@ const text = {
   ]
 };
 
-
-// TODO: add some links as children to the banner
 const Home = () =>
   <div id="homepage">
     <Banner image={motherboard}>
