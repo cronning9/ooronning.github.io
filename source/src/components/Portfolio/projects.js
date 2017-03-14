@@ -11,10 +11,10 @@ const projects = [
     link: "https://github.com/ooronning/cs-skins-contest"
   },
   {
-    title: "Ferro (working name)",
+    title: "Ditto",
     description: "Aspires to be a full-featured BitTorrent client. Written in C# with .NET Core, this is a work in " +
                  "progress, built straight from the official BitTorrent protocol specifications.",
-    link: "https://gitlab.com/banks/ferro"
+    link: "https://gitlab.com/ditto/ditto"
   },
   {
     title: "ZimArt Mobile",
