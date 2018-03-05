@@ -1,0 +1,26 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    background-color: #2e2e2e;
+
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 400px;
+    width: 700px;
+    border: 1px solid #1a1a1a;
+    background-color: #fffafa;
+    color: #1a1a1a;
+}
